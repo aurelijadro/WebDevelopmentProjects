@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Arrow Function and Template Strings</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <div class="page-layout">
+        <header class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+                <h1 class="display-4"><i class="fas fa-star"></i></h1>
+                <h1 class="display-4">Your Unicorn Name!</h1>
+                <p class="lead">Just a simple tool to know your unicorn self.</p>
+            </div>
+        </header>
+
+        <div class="content-area">
+            <main class="container text-center">
+
+                <div class="row">
+                    <div class="col-4">
+                        <p>Enter your name:</p>
+                    </div>
+                    <div class="col-4">
+                        <p>Select your birthdate:</p>
+                    </div>
+                    <div class="col-4">
+                        <p>Press for magic:</p>
+                    </div>
+                </div>
+
+                <form>
+
+                    <div class="input-group">
+                        <input type="text" placeholder="Your name" id="userName" pattern="[A-Za-z].+" class="form-control">
+                        <span class="form-control">
+                            <input type="date" placeholder="Date" id="birthday" onfocus="(this.type='date')">
+                        </span>
+                        <span class="input-group-btn">
+                            <button class="btn btn-info">Generate your unicorn name!</button>
+                        </span>
+                    </div>
+
+                </form>
+                <h1 class="display-2 my-5" id="unicornName"></h1>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/1d224933f4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

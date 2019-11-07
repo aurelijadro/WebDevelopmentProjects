@@ -1,0 +1,42 @@
+.jumbotron {
+    background-color: rgb(195, 195, 229);
+    border-radius: 5px;
+}
+
+.display-4 {
+    color: rgb(68, 50, 102);
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(68, 50, 102);
+}
+
+hr {
+
+    border-top: 1px solid rgb(68, 50, 102);
+}
+
+.btn {
+    background-color: rgb(68, 50, 102);
+    border-color: rgb(68, 50, 102);
+}
+
+.lilacDiv {
+    background-color: rgb(195, 195, 229);
+    border-radius: 5px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.progress-bar-dark {
+    background-color: rgb(140, 72, 159);
+}
+
+.progress-bar-light {
+    background-color: rgb(195, 195, 229);
+}
+
+i {
+    color: rgb(68, 50, 102);
+}
